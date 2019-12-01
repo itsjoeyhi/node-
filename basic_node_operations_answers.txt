@@ -39,13 +39,17 @@ const fs = require("fs");
 }
 };
 
-wc: t counted the number of new lines, words , and byte in the file. The output was 42     101     982 
+wc: it counted the number of new lines, words , and byte in the file. The output was 42     101     982 
 
 uniq: it filtered out repeated adjacent lines and the resulting in any repeated lines of code being removed from the output. 
 
 
 2, 
 Using the pipe (|) connect at least two commands and run it on commands.js. Explain what the output was and why the specific data was outputted.
+uniq commands.js | wc - it returns only different lines from the command.js file. If lines are not exactly the same and same lines exist, the output gets passed to wc. When I typed the command I got 
+ 35      63     729
+
+ 35 lines, 63 words, and 729 bytes 
 
 3. Implement the head command in the commands.js file. The head command outputs the first n lines of a file (you may decide what n is). This function will be similar to cat in structure so it will be helpful to reference.
 
