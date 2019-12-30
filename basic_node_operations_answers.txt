@@ -1,0 +1,55 @@
+1. Sort - sort command took the contents of the file, line by line in alphabetical order. 
+
+output : 
+
+
+         done(userInput);
+        done(data);
+        if (err) throw err;
+      break;
+      break;
+      commandLibrary.cat(userInputArray.slice(1));
+      commandLibrary.echo(userInputArray.slice(1).join(" "));
+     "echo": function(userInput) {
+     process.stdout.write('\nprompt > ');
+     process.stdout.write(output);
+    case "cat":
+    case "echo":
+    const fileName = fullPath[0];
+    fs.readFile(fileName, (err, data) => {
+    });
+   const command = userInputArray[0];
+   const userInputArray = userInput.split(" ");
+   switch (command) {
+  //parses the user input to understand which command was typed
+  }
+ "cat": function(fullPath) {
+ const commandLibrary = {
+ function done(output) {
+ function evaluateCmd(userInput) {
+ module.exports.commandLibrary = commandLibrary;
+ module.exports.evaluateCmd = evaluateCmd;
+ }
+ },
+//where we will store our commands
+//where we will store the logic of our commands
+//write out data
+const fs = require("fs");
+}
+}
+};
+
+wc: it counted the number of new lines, words , and byte in the file. The output was 42     101     982 
+
+uniq: it filtered out repeated adjacent lines and the resulting in any repeated lines of code being removed from the output. 
+
+
+2, 
+Using the pipe (|) connect at least two commands and run it on commands.js. Explain what the output was and why the specific data was outputted.
+uniq commands.js | wc - it returns only different lines from the command.js file. If lines are not exactly the same and same lines exist, the output gets passed to wc. When I typed the command I got 
+ 35      63     729
+
+ 35 lines, 63 words, and 729 bytes 
+
+3. Implement the head command in the commands.js file. The head command outputs the first n lines of a file (you may decide what n is). This function will be similar to cat in structure so it will be helpful to reference.
+
