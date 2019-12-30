@@ -77,3 +77,5 @@ head: function(fullPath) {
 
  module.exports.commandLibrary = commandLibrary;
  module.exports.evaluateCmd = evaluateCmd;
+
+ 
